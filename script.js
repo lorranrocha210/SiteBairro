@@ -1,5 +1,5 @@
 function mudar_pag_Init(){
-    window.location.href='Página_Inicial.html'
+    window.location.href='index.html'
 }
 function mudar_pag_Transp(){
     window.location.href='Transporte.html'
