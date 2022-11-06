@@ -1,0 +1,11 @@
+#container1{
+    margin: 100px auto 0;
+    width: 1248px;
+}
+img:nth-child(n+2){
+    width: 200px;
+}
+#txt{
+    width: 1030px;
+    margin: 0 auto;
+}
