@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: AbeeZee;
+    src: url(ABeeZee-Regular.ttf);
+}
+@font-face {
+    font-family: AbeeZee Italic;
+    src: url(ABeeZee-Italic.ttf);
+}
+@font-face {
+    font-family: Amaranth;
+    src: url(Amaranth-Regular.ttf);
+}
+@font-face {
+    font-family: Alumni Sans;
+    src: url(AlumniSans-VariableFont_wght.ttf);
+}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    padding-top: 71px;
+    background-color: #CED8E1;
+    margin: 0% auto !important; 
+    padding: 0;
+    width: 1440px;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+header{
+    width: 100%;
+    height: 71px;
+    background-color: #5C89B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+p{
+    font-size: 30px;
+    font-family: Amaranth;
+}
+.opc{
+    color: white;
+    font-family: AbeeZee;
+    font-size: 26px;
+    display: inline-block;
+    margin-left: 60px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#opcoes{
+    margin: 13px auto;
+    padding: 0%;
+    width: fit-content;
+}
+#login{
+    background-color: #0F3651;
+    color: #CED8E1;
+    border-radius: 50px;
+    height: 47px;
+    width: 159px;
+    text-align: center;
+    font-family: Amaranth;
+    position: relative;
+    left: 80px;
+    padding: auto;
+    margin: 0;
+    padding-top: 7px;
+}
+.opc:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#secao1{
+    background-color: #102B3E;
+    text-align: left;
+    color: #CED8E1;
+    height: 635px;
+    width: 100%;
+}
+#secao1 > h1{
+    font-size: 115px;
+    font-family: Alumni Sans;
+    padding-top: 105px;
+    margin-left: 75px;
+}
+#secao1 > p{
+    font-size: 40px;
+    font-family: Amaranth;
+    width: 800px;
+    margin-left: 75px;
+}
+main{
+    height: 1500px;
+}
